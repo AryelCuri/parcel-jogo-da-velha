@@ -1,0 +1,66 @@
+body {
+  font-family: Gloria Hallelujah, cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+.caixa {
+  text-align: center;
+  cursor: pointer;
+  background-color: #a9a9a9;
+  width: 75px;
+  height: 75px;
+  font-size: 40px;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px #000;
+}
+
+.botao-container {
+  justify-content: center;
+  display: flex;
+}
+
+.vencedor {
+  display: none;
+}
+
+.game-container {
+  grid-template-columns: 75px 75px 75px;
+  justify-content: center;
+  gap: 20px;
+  display: grid;
+}
+
+.botao-container {
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.input {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.input:hover {
+  outline: none;
+}
+
+.modern {
+  transition: all .5s;
+}
+
+.modernB {
+  background-image: linear-gradient(to right, red, orange, #ff0, green, #00f, indigo, violet);
+  border: 3px solid #00d111;
+  box-shadow: 10px -10px #c2ffb0;
+}
+
+.modernB:hover {
+  border: 4px solid #ff00d4;
+  box-shadow: -10px 10px #ffaaf4;
+}
+/*# sourceMappingURL=index.3a01df49.css.map */
